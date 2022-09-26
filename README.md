@@ -1,1 +1,0 @@
-# budzynskikarol.github.io
