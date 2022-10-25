@@ -41,7 +41,10 @@
             <section class="home bd-grid" id="home">
                 <div class="home__data">
                     <h1 class="home__title">Hi, I'm <span class="home__title-color">Karol.</span><br> 
-                        Welcome to my portfolio website.</h1>
+                        Welcome to my portfolio website.<br/>
+                        <a href="https://github.com/budzynskikarol" target=_blank id="link"><i class='bx bxl-github'></i></a>
+                    </h1>
+                        
                 </div>
             </section>
 
@@ -178,32 +181,11 @@
 
             <!--===== Projects =====-->
             <section class="projects section" id="projects">
-                <h2 class="section-title">Projects</h2>
+                <h2 class="section-title" id="abc">Projects</h2>
 
                 <div class="projects__container bd-grid">
-                    <a href="" class="projects__img">
-                        <img src="assets/img/work1.jpg" alt="">
-                        <div class="projects_txt_centered">Centered</div>
-                    </a>
-                    <a href="" class="projects__img">
-                        <img src="assets/img/work2.jpg" alt="">
-                        <div class="projects_txt_centered">Centered</div>
-                    </a>
-                    <a href="" class="projects__img">
-                        <img src="assets/img/work3.jpg" alt="">
-                        <div class="projects_txt_centered">Centered</div>
-                    </a>
-                    <a href="" class="projects__img">
-                        <img src="assets/img/work4.jpg" alt="">
-                        <div class="projects_txt_centered">Centered</div>
-                    </a>
-                    <a href="" class="projects__img">
-                        <img src="assets/img/work5.jpg" alt="">
-                        <div class="projects_txt_centered">Centered</div>
-                    </a>
-                    <a href="" class="projects__img">
-                        <img src="assets/img/work6.jpg" alt="">
-                        <div class="projects_txt_centered">Centered</div>
+                    <a href="https://www.budzynski.it/projects/digitalclock/" target=_blank class="projects__img">
+                        <img src="assets/img/digitalclock.png" alt="">
                     </a>
                 </div>
             </section>
@@ -218,11 +200,11 @@
                         <i class='bx bxs-phone-call' ></i> 693-739-421<br/>
                         <i class='bx bx-mail-send' ></i> <a href="mailto:karol@budzynski.it"> karol@budzynski.it</a><br/>
                     </span>
-                    <form action="" class="contact__form">
-                        <input type="text" placeholder="Name" class="contact__input">
-                        <input type="mail" placeholder="Email" class="contact__input">
-                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-                        <input type="button" value="Send" class="contact__button button">
+                    <form action="https://formsubmit.co/karol@budzynski.it" method="POST" class="contact__form">
+                        <input type="text" name="Name" placeholder="Name" class="contact__input" required>
+                        <input type="mail" name="Email" placeholder="Email" class="contact__input" required>
+                        <textarea name="Message" id="" cols="0" rows="10" class="contact__input" required></textarea>
+                        <input type="submit" value="Send" class="contact__button button" id="aaa">
                     </form>
                 </div>
             </section>
@@ -233,11 +215,11 @@
             <p class="footer__title">Karol Budzyński - Portfolio</p>
         </footer>
 
-
         <!--===== SCROLL REVEAL =====-->
         <script src="https://unpkg.com/scrollreveal"></script>
 
         <!--===== MAIN JS =====-->
         <script src="assets/js/main.js"></script>
+
     </body>
 </html>

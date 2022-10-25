@@ -56,3 +56,7 @@ sr.reveal('.exp_txt',{});
 sr.reveal('.skills__subtitle, .skills__text, .skills__data',{}); 
 sr.reveal('.projects__img',{});
 sr.reveal('.contact_txt, .contact__input',{}); 
+
+document.getElementById("but").addEventListener('click', ()=>{
+    document.getElementById("aaa").setAttribute('value', 'Wyślij')
+})

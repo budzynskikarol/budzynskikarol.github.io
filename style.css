@@ -1,0 +1,17 @@
+body
+{
+    margin: 0;
+    background-color: #26282E;
+    color: #209781;
+    font-size: 28px; 
+}
+
+h1
+{
+    font-size: 64px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 5px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}

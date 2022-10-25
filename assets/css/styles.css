@@ -213,6 +213,10 @@ img {
   color: var(--first-color);
 }
 
+#link{
+  color: var(--first-color);
+}
+
 /*BUTTONS*/
 .button {
   display: inline-block;
