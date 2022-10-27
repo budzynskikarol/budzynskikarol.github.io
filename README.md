@@ -1,5 +1,5 @@
-# budzynskikarol.github.io
+# [budzynskikarol.github.io](budzynskikarol.github.io)
 
 My portfolio website
 
-![Preview](https://github.com/budzynskikarol/digitalclock/blob/main/digitalclock.png?raw=true)
+![Preview](https://github.com/budzynskikarol/budzynskikarol.github.io/blob/main/assets/img/portfolio.png?raw=true)
