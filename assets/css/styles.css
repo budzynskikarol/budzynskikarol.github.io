@@ -213,11 +213,15 @@ img {
   color: var(--first-color);
 }
 
-#link{
+#link {
   color: var(--first-color);
 }
 
-#link:hover:visited{
+#link:hover {
+  color: var(--second-color);
+}
+
+#link:visited:hover {
   color: var(--second-color);
 }
 
